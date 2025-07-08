@@ -1,0 +1,65 @@
+{
+  "title": "Séance 6 – Renforcement musculaire",
+  "author": "Maxime",
+  "bodyAreas": "Quadriceps, Ischios, Chaîne latérale",
+  "estimatedTime": "25-30 min",
+  "tours": 3,
+  "exercises": [
+    {
+      "id": "warmup",
+      "name": "RAC hanche tendue",
+      "specs": "4 allers-retours/côté",
+      "duration": 0,
+      "video": "wHuouGujKa8",
+      "icon": "🔥"
+    },
+    {
+      "id": "fente-tenue",
+      "name": "Fente tenue",
+      "specs": "15 s/côté",
+      "duration": 30,
+      "video": "6g2hPc8yZwE",
+      "icon": "🦵"
+    },
+    {
+      "id": "glute-bridge-serviette",
+      "name": "Glute bridge – glissé de serviette en A/R",
+      "specs": "6 x",
+      "duration": 0,
+      "video": "PUQL_TAqGG8",
+      "icon": "🍑"
+    },
+    {
+      "id": "mouvement-coureur",
+      "name": "Mouvements du coureur",
+      "specs": "10 x/côté",
+      "duration": 0,
+      "video": "KRV4gl5lmbg",
+      "icon": "🏃"
+    },
+    {
+      "id": "box-squat",
+      "name": "Box squat",
+      "specs": "10 x / droite",
+      "duration": 0,
+      "video": "H63f9M7RsoE",
+      "icon": "🪑"
+    },
+    {
+      "id": "glute-bridge-unipodal",
+      "name": "Glute bridge unipodal (éloigner talon)",
+      "specs": "10 x / droite",
+      "duration": 0,
+      "video": "wguRaqJwDzM",
+      "icon": "⬆️"
+    },
+    {
+      "id": "gainage-lateral-abduction",
+      "name": "Gainage latéral avec abduction",
+      "specs": "20 s / gauche",
+      "duration": 20,
+      "video": "wRXpU5f0GQ8",
+      "icon": "💪"
+    }
+  ]
+}
