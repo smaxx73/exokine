@@ -1,0 +1,65 @@
+{
+  "title": "Séance 7 – Renforcement ciblé",
+  "author": "Maxime",
+  "bodyAreas": "Quadriceps droit, Ischio-jambiers droit, Chaîne latérale gauche",
+  "estimatedTime": "25-30 min",
+  "tours": 3,
+  "exercises": [
+    {
+      "id": "mob-cheville",
+      "name": "Mobilisation cheville en flexion",
+      "specs": "1 min/côté",
+      "duration": 0,
+      "video": "YXzyFiXmaFM",
+      "icon": "🦶"
+    },
+    {
+      "id": "chaise-pointes",
+      "name": "Chaise avec montée sur pointes",
+      "specs": "45 s",
+      "duration": 45,
+      "video": "zbbiBg_p5Ws",
+      "icon": "🪑"
+    },
+    {
+      "id": "romanian-deadlift",
+      "name": "Romanian deadlift + maintien 5 s en bas",
+      "specs": "1 min",
+      "duration": 60,
+      "video": "IqtQHyblWHU",
+      "icon": "🏋️"
+    },
+    {
+      "id": "gainage-elastique",
+      "name": "Gainage latéral genou + élastique",
+      "specs": "30 s/côté",
+      "duration": 60,
+      "video": "PjklnynN8Ms",
+      "icon": "💪"
+    },
+    {
+      "id": "bulgarian-squat-tenue",
+      "name": "Bulgarian squat avec 10 kg (tenue)",
+      "specs": "30 s / droite",
+      "duration": 30,
+      "video": "Foo-bDFSoFw",
+      "icon": "🦵"
+    },
+    {
+      "id": "glute-bridge-unipodal",
+      "name": "Glute bridge unipodal",
+      "specs": "12 x / droite",
+      "duration": 0,
+      "video": "wguRaqJwDzM",
+      "icon": "🍑"
+    },
+    {
+      "id": "starplank",
+      "name": "Star plank bas",
+      "specs": "30 s / gauche",
+      "duration": 30,
+      "video": "Zvz23GsfpfQ",
+      "icon": "⭐"
+    }
+  ]
+}
