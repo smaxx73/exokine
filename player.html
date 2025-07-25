@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Séance (chargement…)</title>
+
+  <!-- Styles communs -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- On passe le nom (ou l’URL) du JSON voulu dans l’attribut data-session -->
+  <!-- Exemple : player.html?session=session6.json fonctionnera aussi -->
+  <script>
+    document.documentElement.dataset.session =
+      new URLSearchParams(location.search).get("session") || "session6.json";
+  </script>
+</head>
+
+<body>
+  <!-- Conteneur racine dans lequel le JS injecte tout -->
+  <div id="app"></div>
+
+  <!-- Logique -->
+  <script type="module" src="app.js"></script>
+</body>
+</html>

@@ -3,24 +3,44 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Séance (chargement…)</title>
-
-  <!-- Styles communs -->
+  <title>Choisir une séance</title>
   <link rel="stylesheet" href="style.css" />
-
-  <!-- On passe le nom (ou l’URL) du JSON voulu dans l’attribut data-session -->
-  <!-- Exemple : index.html?session=session6.json fonctionnera aussi -->
-  <script>
-    document.documentElement.dataset.session =
-      new URLSearchParams(location.search).get("session") || "session6.json";
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+      color: white;
+      min-height: 100vh;
+      background: linear-gradient(var(--clr-bg-start), var(--clr-bg-end));
+      font-family: var(--ff-base);
+    }
+    h1 { margin-bottom: 30px; }
+    .session-list { display: flex; flex-direction: column; gap: 15px; width: 100%; max-width: 400px; }
+    .session-item { text-decoration: none; color: inherit; padding: 15px 20px; border-radius: var(--radius-md); background: var(--clr-white-10); text-align: center; transition: background .2s; }
+    .session-item:hover { background: var(--clr-white-20); }
+  </style>
+  <script type="module">
+    const files = ['session6.json','session7.json','session9.json','session10.json'];
+    async function init(){
+      const container = document.getElementById('sessions');
+      for(const file of files){
+        try{
+          const data = await fetch(file).then(r=>r.json());
+          const a = document.createElement('a');
+          a.className = 'session-item';
+          a.href = 'player.html?session='+file;
+          a.textContent = data.title || file;
+          container.appendChild(a);
+        }catch(e){ console.error(e); }
+      }
+    }
+    window.addEventListener('DOMContentLoaded', init);
   </script>
 </head>
-
 <body>
-  <!-- Conteneur racine dans lequel le JS injecte tout -->
-  <div id="app"></div>
-
-  <!-- Logique -->
-  <script type="module" src="app.js"></script>
+  <h1>Choisissez une séance</h1>
+  <div id="sessions" class="session-list"></div>
 </body>
 </html>
