@@ -1,0 +1,65 @@
+{
+  "title": "Séance 12 – Renforcement ciblé",
+  "author": "Maxime",
+  "bodyAreas": "Quadriceps droit, Ischio-jambiers droit, Chaîne latérale gauche",
+  "estimatedTime": "25-30 min",
+  "tours": 3,
+  "exercises": [
+    {
+      "id": "pigeon-stretch",
+      "name": "Pigeon stretch",
+      "specs": "1 min/côté",
+      "duration": 0,
+      "video": "PK8deCnj6cc",
+      "icon": "🧘"
+    },
+    {
+      "id": "pallof-press-fente",
+      "name": "Pallof press en fente",
+      "specs": "30 s/côté",
+      "duration": 60,
+      "video": "O296whCcSvM",
+      "icon": "🏹"
+    },
+    {
+      "id": "glute-bridge-marchant",
+      "name": "Glute bridge en marchant",
+      "specs": "1 min",
+      "duration": 60,
+      "video": "8p5bowulSOg",
+      "icon": "🚶‍♂️"
+    },
+    {
+      "id": "mf-debout-elastique",
+      "name": "Travail du moyen fessier debout avec élastique",
+      "specs": "15 x/côté",
+      "duration": 0,
+      "video": "hdOOfK0DjlE",
+      "icon": "🍑"
+    },
+    {
+      "id": "descente-marche",
+      "name": "Descente d'une marche, de profil",
+      "specs": "10 x / côté",
+      "duration": 0,
+      "video": "689Mdo0AsTs",
+      "icon": "⬇️"
+    },
+    {
+      "id": "romanian-deadlift-unipodal",
+      "name": "Romanian deadlift unipodal avec poids",
+      "specs": "12 x / droite",
+      "duration": 0,
+      "video": "SDslyMXU85k",
+      "icon": "🏋️"
+    },
+    {
+      "id": "plank-turn",
+      "name": "Plank turn",
+      "specs": "1 min",
+      "duration": 60,
+      "video": "FqGmwWpexK4",
+      "icon": "🔄"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "title": "Séance 11 – Renforcement ciblé",
+  "author": "Maxime",
+  "bodyAreas": "Quadriceps droit, Ischio-jambiers droit, Chaîne latérale gauche",
+  "estimatedTime": "25-30 min",
+  "tours": 3,
+  "exercises": [
+    {
+      "id": "hanche-90-90",
+      "name": "Mobilisation hanche 90/90",
+      "specs": "2 min",
+      "duration": 120,
+      "video": "8V0y2mV8rqY",
+      "icon": "🦵"
+    },
+    {
+      "id": "quadriceps-genoux",
+      "name": "Travail du quadriceps à genoux",
+      "specs": "12 x",
+      "duration": 0,
+      "video": "Vu4Kjj0tUNQ",
+      "icon": "🧎"
+    },
+    {
+      "id": "romanian-deadlift",
+      "name": "Romanian deadlift avec poids (10 kg)",
+      "specs": "1 min",
+      "duration": 60,
+      "video": "IqtQHyblWHU",
+      "icon": "🏋️"
+    },
+    {
+      "id": "marche-laterale",
+      "name": "Marche latérale avec élastique",
+      "specs": "30 s/côté",
+      "duration": 60,
+      "video": "hPhUdXxd-ro",
+      "icon": "🚶"
+    },
+    {
+      "id": "bulgarian-squat",
+      "name": "Bulgarian squat",
+      "specs": "12 x / droite",
+      "duration": 0,
+      "video": "Foo-bDFSoFw",
+      "icon": "🦵"
+    },
+    {
+      "id": "glute-bridge-sureleve",
+      "name": "Glute bridge surélevé, unipodal",
+      "specs": "12 x / droite",
+      "duration": 0,
+      "video": "Sw-wmPmbCqg",
+      "icon": "🍑"
+    },
+    {
+      "id": "hip-thrust-unipodal",
+      "name": "Hip Thrust unipodal avec poids (10 kg)",
+      "specs": "12 x / gauche",
+      "duration": 0,
+      "video": "Kynx-uFDqCM",
+      "icon": "⬆️"
+    }
+  ]
+}
