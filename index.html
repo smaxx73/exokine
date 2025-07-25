@@ -22,15 +22,20 @@
     .session-item:hover { background: var(--clr-white-20); }
   </style>
   <script type="module">
-    const files = ['session6.json','session7.json','session9.json','session10.json'];
     async function init(){
       const container = document.getElementById('sessions');
-      for(const file of files){
+      let list = [];
+      try {
+        list = await fetch('sessions/index.json').then(r => r.json());
+      } catch (e) {
+        console.error(e);
+      }
+      for(const file of list){
         try{
-          const data = await fetch(file).then(r=>r.json());
+          const data = await fetch('sessions/'+file).then(r=>r.json());
           const a = document.createElement('a');
           a.className = 'session-item';
-          a.href = 'player.html?session='+file;
+          a.href = 'player.html?session=sessions/'+file;
           a.textContent = data.title || file;
           container.appendChild(a);
         }catch(e){ console.error(e); }
